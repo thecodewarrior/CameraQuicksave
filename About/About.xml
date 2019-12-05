@@ -6,5 +6,5 @@
   <supportedVersions>
       <li>1.0</li>
   </supportedVersions>
-  <description>Save and load the current camera position (designed to allow seamless cuts in YouTube videos).\nThere is a toggle button in the play settings area to save and load the position, and the position is saved independent of the map. The position is not saved persistently across reloads.</description>
+  <description>Save and load the current camera position, easily creating seamless cuts in your videos.\n\nThere is a toggle button in the play settings area to save and load the position.\n\nThe position is saved independently for each map and is not saved persistently across reloads. This mod doesn't touch the save file and so should be safe to add to or remove from existing saves.</description>
 </ModMetaData>
