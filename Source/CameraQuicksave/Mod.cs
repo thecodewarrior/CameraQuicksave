@@ -8,7 +8,7 @@ namespace CameraQuicksave
     {
         public const string Id = "CameraQuicksave";
         public const string Name = "Camera Quicksave";
-        public const string Version = "0.0.0";
+        public const string Version = "1.0";
             
         static Mod()
         {
