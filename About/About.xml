@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>Camera Quicksave</name>
+  <author>thecodewarrior</author>
+  <supportedVersions>
+      <li>1.0</li>
+  </supportedVersions>
+  <description>Save and load the current camera position (designed to allow seamless cuts in YouTube videos).\nThere is a toggle button in the play settings area to save and load the position, and the position is saved independent of the map. The position is not saved persistently across reloads.</description>
+</ModMetaData>
