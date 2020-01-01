@@ -29,6 +29,7 @@ namespace CameraQuicksave.Patch
                 else
                 {
                     component.LoadPosition();
+                    component.ClearPosition();
                 }
             }
         }

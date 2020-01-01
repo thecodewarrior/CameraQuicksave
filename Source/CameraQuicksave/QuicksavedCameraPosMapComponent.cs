@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Reflection;
+using UnityEngine;
 using Verse;
 
 namespace CameraQuicksave
@@ -6,6 +8,9 @@ namespace CameraQuicksave
     public class QuicksavedCameraPosMapComponent : MapComponent
     {
         public RememberedCameraPos savedPosition;
+
+        private static FieldInfo DriverVelocity =
+            typeof(CameraDriver).GetField("velocity", BindingFlags.NonPublic | BindingFlags.Instance);
 
         public QuicksavedCameraPosMapComponent(Map map) : base(map)
         {
@@ -20,8 +25,15 @@ namespace CameraQuicksave
 
         public void LoadPosition()
         {
-            if(savedPosition != null)
+            if (savedPosition != null)
+            {
+                DriverVelocity.SetValue(Find.CameraDriver, new Vector3());
                 Find.CameraDriver.SetRootPosAndSize(savedPosition.rootPos, savedPosition.rootSize);
+            }
+        }
+
+        public void ClearPosition()
+        {
             savedPosition = null;
         }
     }
