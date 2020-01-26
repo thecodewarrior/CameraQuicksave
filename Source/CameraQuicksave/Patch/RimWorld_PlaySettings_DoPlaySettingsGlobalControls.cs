@@ -1,6 +1,7 @@
 using RimWorld;
 using Verse;
 using Harmony;
+using UnityEngine;
 
 namespace CameraQuicksave.Patch
 {
@@ -22,7 +23,11 @@ namespace CameraQuicksave.Patch
 
             if (activated != wasActivated)
             {
-                if (activated)
+                if (Input.GetMouseButtonUp(1))
+                {
+                    component.ClearPosition();
+                }
+                else if (activated)
                 {
                     component.SavePosition();
                 }
