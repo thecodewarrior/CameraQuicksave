@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+    <KeyBindingDef Name="BaseKeyBinding" Abstract="true">
+        <defName>BaseKeyBinding</defName>
+        <category>CameraQuicksave</category>
+    </KeyBindingDef>
+    
+    <KeyBindingDef ParentName="BaseKeyBinding">
+        <defName>CQSavePosition</defName>
+        <label>Save the current camera location</label>
+        <!-- <defaultKeyCodeA>U</defaultKeyCodeA> -->
+    </KeyBindingDef>
+    
+    <KeyBindingDef ParentName="BaseKeyBinding">
+        <defName>CQLoadPosition</defName>
+        <label>Load the current camera location</label>
+            <!-- <defaultKeyCodeA>U</defaultKeyCodeA> -->
+    </KeyBindingDef>
+</Defs>
