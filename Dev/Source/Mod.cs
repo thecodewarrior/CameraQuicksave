@@ -1,4 +1,4 @@
-using Harmony;
+using HarmonyLib;
 using Verse;
 
 namespace CameraQuicksave
@@ -13,7 +13,7 @@ namespace CameraQuicksave
             HarmonyInstance.DEBUG = true;
 #endif
 
-            HarmonyInstance harmony = HarmonyInstance.Create("the_codewarrior.rimworld.Camera_Quicksave.main");
+            Harmony harmony = new Harmony("the_codewarrior.rimworld.Camera_Quicksave.main");
 
             harmony.PatchAll();
         }
