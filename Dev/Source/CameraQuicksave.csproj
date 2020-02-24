@@ -38,6 +38,30 @@
             <HintPath Condition="Exists('../../../../Contents/Resources/Data')">../../../../Contents/Resources/Data/Managed/Assembly-CSharp.dll</HintPath>
             <Private>False</Private>
         </Reference>
+        <Reference Include="UnityEngine">
+            <HintPath Condition="Exists('..\..\..\RimWorldWin64_Data')">..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+            <HintPath Condition="Exists('..\..\..\RimWorldWin_Data')">..\..\..\RimWorldWin_Data\Managed\UnityEngine.dll</HintPath>
+            <HintPath Condition="Exists('../../../../Contents/Resources/Data')">../../../../Contents/Resources/Data/Managed/UnityEngine.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+            <HintPath Condition="Exists('..\..\..\RimWorldWin64_Data')">..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+            <HintPath Condition="Exists('..\..\..\RimWorldWin_Data')">..\..\..\RimWorldWin_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+            <HintPath Condition="Exists('../../../../Contents/Resources/Data')">../../../../Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="UnityEngine.IMGUIModule">
+            <HintPath Condition="Exists('..\..\..\RimWorldWin64_Data')">..\..\..\RimWorldWin64_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+            <HintPath Condition="Exists('..\..\..\RimWorldWin_Data')">..\..\..\RimWorldWin_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+            <HintPath Condition="Exists('../../../../Contents/Resources/Data')">../../../../Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="UnityEngine.InputLegacyModule">
+            <HintPath Condition="Exists('..\..\..\RimWorldWin64_Data')">..\..\..\RimWorldWin64_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+            <HintPath Condition="Exists('..\..\..\RimWorldWin_Data')">..\..\..\RimWorldWin_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+            <HintPath Condition="Exists('../../../../Contents/Resources/Data')">../../../../Contents/Resources/Data/Managed/UnityEngine.InputLegacyModule.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
         <Reference Include="0Harmony">
             <HintPath>..\ThirdParty\0Harmony.dll</HintPath>
             <Private>True</Private>
@@ -48,12 +72,6 @@
         <Reference Include="System.Data.DataSetExtensions" />
         <Reference Include="System.Data" />
         <Reference Include="System.Xml" />
-        <Reference Include="UnityEngine">
-            <HintPath Condition="Exists('..\..\..\RimWorldWin64_Data')">..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
-            <HintPath Condition="Exists('..\..\..\RimWorldWin_Data')">..\..\..\RimWorldWin_Data\Managed\UnityEngine.dll</HintPath>
-            <HintPath Condition="Exists('../../../../Contents/Resources/Data')">../../../../Contents/Resources/Data/Managed/UnityEngine.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
     </ItemGroup>
     <ItemGroup>
         <Compile Include="**\*.cs" />
