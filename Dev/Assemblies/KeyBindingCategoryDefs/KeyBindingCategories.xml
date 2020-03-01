@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
-<Defs>
-    <KeyBindingCategoryDef>
-        <defName>CameraQuicksave</defName>
-        <label>Camera Quicksave</label>
-        <description>Shortcuts for saving and loading the camera position with the Camera Quicksave mod.</description>
-    </KeyBindingCategoryDef>
-</Defs>

@@ -1,5 +1,5 @@
-using HarmonyLib;
 using Verse;
+using HarmonyLib;
 
 namespace CameraQuicksave
 {
@@ -9,13 +9,7 @@ namespace CameraQuicksave
 
         public Mod(ModContentPack content) : base(content)
         {
-#if DEBUG
-            HarmonyInstance.DEBUG = true;
-#endif
-
-            Harmony harmony = new Harmony("the_codewarrior.rimworld.Camera_Quicksave.main");
-
-            harmony.PatchAll();
+            new Harmony("the_codewarrior.rimworld.CameraQuicksave.main").PatchAll();
         }
     }
 }
