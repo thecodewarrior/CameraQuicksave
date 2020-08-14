@@ -4,6 +4,7 @@
     <author>the_codewarrior</author>
     <supportedVersions>
         <li>1.1</li>
+        <li>1.2</li>
     </supportedVersions>
     <packageId>thecodewarrior.CameraQuicksave</packageId>
     <description>Save and load the current camera position, easily creating seamless cuts in your videos.\n\nThere is a toggle button in the play settings area to save and load the position.\n\nThe position is saved independently for each map and is not saved persistently across reloads. This mod doesn't touch the save file and so should be safe to add to or remove from existing saves.\n\nView the source code on GitHub: https://github.com/thecodewarrior/CameraQuicksave</description>
